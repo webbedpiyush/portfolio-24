@@ -20,7 +20,7 @@ export default function Home() {
           transition={{ duration: 1 }}
         >
           <h2 className="text-md font-semibold mb-6">Skills & Technologies</h2>
-          <div className="flex gap-1">
+          <div className="flex gap-1 flex-wrap">
             {skills.map((skill, index) => (
               <motion.span
                 key={index}

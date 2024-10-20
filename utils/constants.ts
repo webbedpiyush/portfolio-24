@@ -19,10 +19,35 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: "LitCalc",
-    description: "",
-    technologies: ["Next.js"],
-    liveLink: "https://github.com/webbedpiyush/litCalc-fe",
-    githubLink: "https://litcalc-fe.pages.dev/",
+    description:
+      "LitCalc is a lightweight, interactive web-based calculator that supports mathematical, graphical, and pictorial computations drawn on a canvas. Powered by AI, it interprets user inputs and renders the calculated results directly on the canvas",
+    technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
+    githubLink: "https://github.com/webbedpiyush/litCalc-fe",
+    liveLink: "https://litcalc-fe.pages.dev/",
+  },
+  {
+    title: "SurpriseMe",
+    description:
+      "SurpriseMe is a web application that allows users to visit random websites, providing an exciting way to discover new content on the internet. Built with React and Next.js, it features an interactive canvas animation and a user-friendly interface.",
+    technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
+    liveLink: "https://surprise-me-fe.vercel.app/",
+    githubLink: "https://github.com/webbedpiyush/surpriseMe-fe",
+  },
+  {
+    title: "Easy-ghfetch",
+    description:
+      "Easily fetch any file or folder from any branch of any GitHub repository",
+    technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
+    liveLink: "https://easy-ghfetch-fe.vercel.app/",
+    githubLink: "https://github.com/webbedpiyush/easy-ghfetchWeb",
+  },
+  {
+    title: "Cont_Imagen",
+    description:
+      "Cont Imagen is a real-time image generation application built with Next.js, React, and TypeScript",
+    technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
+    liveLink: "https://cont-imagen.vercel.app/",
+    githubLink: "https://github.com/webbedpiyush/cont_imagen",
   },
 ];
 
@@ -38,6 +63,7 @@ export const skills = [
   "Git",
   "Linux",
   "Docker",
+  "Will add more skills later, now I'm sleepy"
 ];
 
 export interface SocialLink {
