@@ -49,6 +49,14 @@ export const projects: Project[] = [
     liveLink: "https://cont-imagen.vercel.app/",
     githubLink: "https://github.com/webbedpiyush/cont_imagen",
   },
+  {
+    title: "Voice_AI",
+    description:
+      "Mini Siri but built for the web",
+    technologies: ["Next.js", "TS", "Cloudflare-Workers", "JS", "AI Integration","Whisper-LLM"],
+    liveLink: "https://voice-ai.webbedpiyush.me",
+    githubLink: "https://github.com/webbedpiyush/Voice-ai",
+  },
 ];
 
 export const skills = [
