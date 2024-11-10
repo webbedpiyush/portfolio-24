@@ -104,7 +104,7 @@ export const socialLinks: SocialLink[] = [
   {
     name: "Resume",
     icon: RiFileTextLine,
-    href: "/resume/resume.pdf",
+    href: "https://drive.google.com/file/d/14z5iEf1EN6oYpmmfwgOPzYWyWsXYSwX0/view?usp=sharing",
   },
   {
     name: "Repository",

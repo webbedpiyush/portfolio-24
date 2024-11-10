@@ -48,7 +48,7 @@ export default function Header() {
     return breadcrumbs;
   }
   return (
-    <div className="fixed top-0 w-full md:w-[80%] lg:w-[50%] bg-opacity-70 backdrop-blur-md transition-colors duration-300">
+    <div className="fixed top-0 w-full md:w-[80%] lg:w-[50%] bg-opacity-70 backdrop-blur-md transition-colors duration-300 z-10">
       <header className="flex p-2 sm:p-4 mx-2 sm:mx-0 justify-between items-center max-w-full">
         <nav className="ml-2 sm:ml-0">
           <ul className="flex flex-wrap items-center justify-center sm:justify-start space-x-1 sm:space-x-1 text-sm sm:text-base">
