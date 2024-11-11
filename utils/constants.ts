@@ -23,7 +23,7 @@ export const projects: Project[] = [
       "LitCalc is a lightweight, interactive web-based calculator that supports mathematical, graphical, and pictorial computations drawn on a canvas. Powered by AI, it interprets user inputs and renders the calculated results directly on the canvas",
     technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
     githubLink: "https://github.com/webbedpiyush/litCalc-fe",
-    liveLink: "https://litcalc-fe.pages.dev/",
+    liveLink: "https://litcalc.webbedpiyush.me",
   },
   {
     title: "SurpriseMe",
@@ -51,9 +51,15 @@ export const projects: Project[] = [
   },
   {
     title: "Voice_AI",
-    description:
-      "Mini Siri but built for the web",
-    technologies: ["Next.js", "TS", "Cloudflare-Workers", "JS", "AI Integration","Whisper-LLM"],
+    description: "Mini Siri but built for the web",
+    technologies: [
+      "Next.js",
+      "TS",
+      "Cloudflare-Workers",
+      "JS",
+      "AI Integration",
+      "Whisper-LLM",
+    ],
     liveLink: "https://voice-ai.webbedpiyush.me",
     githubLink: "https://github.com/webbedpiyush/Voice-ai",
   },
@@ -71,7 +77,7 @@ export const skills = [
   "Git",
   "Linux",
   "Docker",
-  "Will add more skills later, now I'm sleepy"
+  "Will add more skills later, now I'm sleepy",
 ];
 
 export interface SocialLink {
