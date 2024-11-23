@@ -63,6 +63,20 @@ export const projects: Project[] = [
     liveLink: "https://voice-ai.webbedpiyush.me",
     githubLink: "https://github.com/webbedpiyush/Voice-ai",
   },
+  {
+    title: "Condense-Video",
+    description: "Eliminate oversized files! Reduce video size by 90% Without sacrificing quality, all while working offline.",
+    technologies: [
+      "Next.js",
+      "TS",
+      "FFmpeg",
+      "JS",
+      "WASM",
+      "Framer-motion",
+    ],
+    liveLink: "https://condense-video.webbedpiyush.me",
+    githubLink: "https://github.com/webbedpiyush/wasm-project",
+  }
 ];
 
 export const skills = [
