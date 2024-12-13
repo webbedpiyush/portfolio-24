@@ -30,7 +30,7 @@ export const projects: Project[] = [
     description:
       "SurpriseMe is a web application that allows users to visit random websites, providing an exciting way to discover new content on the internet. Built with React and Next.js, it features an interactive canvas animation and a user-friendly interface.",
     technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
-    liveLink: "https://surprise-me-fe.vercel.app/",
+    liveLink: "https://surprise-me.webbedpiyush.me/",
     githubLink: "https://github.com/webbedpiyush/surpriseMe-fe",
   },
   {
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     description:
       "Easily fetch any file or folder from any branch of any GitHub repository",
     technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
-    liveLink: "https://easy-ghfetch-fe.vercel.app/",
+    liveLink: "https://easy-ghfetch.webbedpiyush.me/",
     githubLink: "https://github.com/webbedpiyush/easy-ghfetchWeb",
   },
   {
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     description:
       "Cont Imagen is a real-time image generation application built with Next.js, React, and TypeScript",
     technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
-    liveLink: "https://cont-imagen.vercel.app/",
+    liveLink: "https://cont-imagen.webbedpiyush.me/",
     githubLink: "https://github.com/webbedpiyush/cont_imagen",
   },
   {
@@ -124,7 +124,7 @@ export const socialLinks: SocialLink[] = [
   {
     name: "Resume",
     icon: RiFileTextLine,
-    href: "https://drive.google.com/file/d/14z5iEf1EN6oYpmmfwgOPzYWyWsXYSwX0/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1zySU3ZVcJnjTpGenIJ2TandKLxxX0_4U/view?usp=drive_link",
   },
   {
     name: "Repository",
