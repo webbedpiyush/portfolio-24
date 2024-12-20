@@ -17,7 +17,7 @@ export default function Home() {
           className="mt-8"
           initial={{ opacity: 0, y: 0 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1.25 }}
         >
           <h2 className="text-md font-semibold mb-6">Skills & Technologies</h2>
           <div className="flex gap-1 flex-wrap">
@@ -27,7 +27,7 @@ export default function Home() {
                 className="text-xs border border-gray-500 px-2 py-2 transition-colors duration-200"
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.2, delay: index * 0.03 }}
+                transition={{ duration: 1.5, delay: index * 0.09 }}
               >
                 {skill}
               </motion.span>

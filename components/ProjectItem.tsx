@@ -18,7 +18,7 @@ export default function ProjectItem({
       className="mb-4 pb-6"
       initial={{ opacity: 0, y: 0 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.2, delay: index * 0.1 }}
+      transition={{ duration: 0.5, delay: index * 0.1 }}
     >
       <h3 className="text-sm font-semibold mb-1">
         <Link href={project.liveLink} className="flex items-center gap-2 underline underline-offset-2">
