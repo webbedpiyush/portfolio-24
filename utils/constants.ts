@@ -18,6 +18,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Condense-Video",
+    description:
+      "Eliminate oversized files! Reduce video size by 90% Without sacrificing quality, all while working offline.",
+    technologies: ["Next.js", "TS", "FFmpeg", "JS", "WASM", "Framer-motion"],
+    liveLink: "https://condense-video.webbedpiyush.me",
+    githubLink: "https://github.com/webbedpiyush/wasm-project",
+  },
+  {
     title: "LitCalc",
     description:
       "LitCalc is a lightweight, interactive web-based calculator that supports mathematical, graphical, and pictorial computations drawn on a canvas. Powered by AI, it interprets user inputs and renders the calculated results directly on the canvas",
@@ -38,7 +46,7 @@ export const projects: Project[] = [
     description:
       "Easily fetch any file or folder from any branch of any GitHub repository",
     technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
-    liveLink: "https://easy-ghfetch.webbedpiyush.me/",
+    liveLink: "https://ghfetch.webbedpiyush.me/",
     githubLink: "https://github.com/webbedpiyush/easy-ghfetchWeb",
   },
   {
@@ -63,20 +71,6 @@ export const projects: Project[] = [
     liveLink: "https://voice-ai.webbedpiyush.me",
     githubLink: "https://github.com/webbedpiyush/Voice-ai",
   },
-  {
-    title: "Condense-Video",
-    description: "Eliminate oversized files! Reduce video size by 90% Without sacrificing quality, all while working offline.",
-    technologies: [
-      "Next.js",
-      "TS",
-      "FFmpeg",
-      "JS",
-      "WASM",
-      "Framer-motion",
-    ],
-    liveLink: "https://condense-video.webbedpiyush.me",
-    githubLink: "https://github.com/webbedpiyush/wasm-project",
-  }
 ];
 
 export const skills = [
@@ -124,7 +118,7 @@ export const socialLinks: SocialLink[] = [
   {
     name: "Resume",
     icon: RiFileTextLine,
-    href: "https://drive.google.com/file/d/1zySU3ZVcJnjTpGenIJ2TandKLxxX0_4U/view?usp=drive_link",
+    href: "https://drive.google.com/file/d/1_Vq9hw6NSeaefnH9EgruVVmP__SNEf9K/view?usp=sharing",
   },
   {
     name: "Repository",
