@@ -43,8 +43,6 @@ export default function Header() {
         path: "/" + pathSegments.slice(0, index + 1).join("/"),
       });
     });
-
-    console.log(breadcrumbs);
     return breadcrumbs;
   }
   return (

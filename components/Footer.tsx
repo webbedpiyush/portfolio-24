@@ -12,7 +12,6 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
   const pathname = `/${usePathname().split("/")[1]}`;
-  console.log(pathname);
 
   const navItems = [
     { href: "/", icon: RiSquareLine, label: "Home" },
