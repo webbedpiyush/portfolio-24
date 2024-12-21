@@ -14,6 +14,7 @@ export interface Project {
   technologies: string[];
   liveLink: string;
   githubLink: string;
+  videoUrl?: string;
 }
 
 export const projects: Project[] = [
@@ -24,6 +25,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TS", "FFmpeg", "JS", "WASM", "Framer-motion"],
     liveLink: "https://condense-video.webbedpiyush.me",
     githubLink: "https://github.com/webbedpiyush/wasm-project",
+    videoUrl: "/condense-video.mp4",
   },
   {
     title: "LitCalc",
@@ -32,6 +34,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
     githubLink: "https://github.com/webbedpiyush/litCalc-fe",
     liveLink: "https://litcalc.webbedpiyush.me",
+    videoUrl: "/litcalc.mp4",
   },
   {
     title: "SurpriseMe",
@@ -40,6 +43,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
     liveLink: "https://surprise-me.webbedpiyush.me/",
     githubLink: "https://github.com/webbedpiyush/surpriseMe-fe",
+    videoUrl: "/surpriseMe.mp4",
   },
   {
     title: "Easy-ghfetch",
@@ -48,6 +52,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
     liveLink: "https://ghfetch.webbedpiyush.me/",
     githubLink: "https://github.com/webbedpiyush/easy-ghfetchWeb",
+    videoUrl: "/ghfetch.mp4",
   },
   {
     title: "Cont_Imagen",
@@ -56,6 +61,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TS", "Node.js", "JS", "AI Integration"],
     liveLink: "https://cont-imagen.webbedpiyush.me/",
     githubLink: "https://github.com/webbedpiyush/cont_imagen",
+    videoUrl: "/cont-imagen.mp4",
   },
   {
     title: "Voice_AI",
@@ -70,6 +76,7 @@ export const projects: Project[] = [
     ],
     liveLink: "https://voice-ai.webbedpiyush.me",
     githubLink: "https://github.com/webbedpiyush/Voice-ai",
+    videoUrl: "/voice-ai.mp4",
   },
 ];
 
