@@ -14,9 +14,20 @@ export default function ContactPage() {
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // i will do something with the data 
+    if (name.length === 0 || email.length === 0 || message.length === 0) {
+      return;
+    }
+    const data = await fetch("/api/send", {
+      method: "POST",
+      body: JSON.stringify({
+        name,
+        email,
+        message,
+      }),
+    });
+    // i will do something with the data
     console.log("Form submitted:", { name, email, message });
     setSubmitted(true);
   };
@@ -30,11 +41,9 @@ export default function ContactPage() {
         className="max-w-md w-full space-y-8  p-10 rounded-xl shadow-lg"
       >
         <div>
-          <h2 className="mt-6 text-center text-3xl font-extrabold ">
-            Wanted
-          </h2>
+          <h2 className="mt-6 text-center text-3xl font-extrabold ">Wanted</h2>
           <p className="mt-2 text-center text-sm ">
-          Impart your Devil Fruit Ability Knowledge Here
+            Impart your Devil Fruit Ability Knowledge Here
           </p>
         </div>
         {submitted ? (
@@ -98,7 +107,7 @@ export default function ContactPage() {
 
             <div>
               <Button
-              variant="ghost"
+                variant="ghost"
                 type="submit"
                 className="group relative w-full flex justify-center py-2 px-4 border-transparent text-sm font-medium rounded-md border border-gray-500"
               >
