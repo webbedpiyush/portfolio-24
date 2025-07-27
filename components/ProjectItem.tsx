@@ -98,13 +98,11 @@ export default function ProjectItem({
       className="mb-4 pb-6"
       initial={{ opacity: 0, y: 0 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-    >
-      <h3 className="text-sm font-semibold mb-1">
+      transition={{ duration: 0.5, delay: index * 0.1 }}>
+      <h3 className="text-sm font-semibold mb-1 dark:text-gray-200">
         <Link
           href={project.liveLink}
-          className="flex items-center gap-2 underline underline-offset-2"
-        >
+          className="flex items-center gap-2 underline underline-offset-2">
           <RiFolder2Line className="text-gray-600 dark:text-gray-400 text-lg" />
           <span>{project.title}</span>
         </Link>
@@ -130,8 +128,7 @@ export default function ProjectItem({
         {project.technologies.map((tech, index) => (
           <span
             key={index}
-            className="text-xs border border-gray-500 px-2 py-1"
-          >
+            className="text-xs border border-gray-500 px-2 py-1 dark:text-gray-200">
             {tech}
           </span>
         ))}
@@ -141,16 +138,14 @@ export default function ProjectItem({
           href={project.liveLink}
           target="_blank"
           className="text-gray-500 dark:text-gray-400 dark:hover:text-gray-300 hover:text-gray-600"
-          whileHover={{ scale: 1.2 }}
-        >
+          whileHover={{ scale: 1.2 }}>
           <RiExternalLinkLine />
         </motion.a>
         <motion.a
           href={project.githubLink}
           target="_blank"
           className="text-gray-500 dark:text-gray-400 dark:hover:text-gray-300 hover:text-gray-600"
-          whileHover={{ scale: 1.2 }}
-        >
+          whileHover={{ scale: 1.2 }}>
           <TbBrandGithub />
         </motion.a>
       </div>

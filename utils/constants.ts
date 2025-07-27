@@ -110,7 +110,7 @@ export const socialLinks: SocialLink[] = [
   {
     name: "Twitter",
     icon: FaXTwitter,
-    href: "https://x.com/_webbedpiyush",
+    href: "https://x.com/piyushhcodes",
   },
   {
     name: "LinkedIn",
@@ -125,7 +125,7 @@ export const socialLinks: SocialLink[] = [
   {
     name: "Resume",
     icon: RiFileTextLine,
-    href: "https://drive.google.com/file/d/1_Vq9hw6NSeaefnH9EgruVVmP__SNEf9K/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1-ETW0bBetqjNRKJQNDAZBPW6La7JjtlG/view?usp=drive_link",
   },
   {
     name: "Repository",

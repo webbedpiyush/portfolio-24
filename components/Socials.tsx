@@ -15,12 +15,11 @@ export function SocialLinkItem({
       className="flex items-center pb-2 mb-2 space-x-2"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3, delay: index * 0.1 }}
-    >
-      <Link href={link.href} target="_blank" >
+      transition={{ duration: 0.3, delay: index * 0.1 }}>
+      <Link href={link.href} target="_blank">
         <h3 className="text-sm font-semibold mb-0 flex items-center justify-center gap-3 hover:underline hover:underline-offset-4">
           <link.icon className="text-gray-600 dark:text-gray-400 text-xl w-7 h-7" />
-          <span>{link.name}</span>
+          <span className="dark:text-gray-200">{link.name}</span>
         </h3>
       </Link>
     </motion.div>

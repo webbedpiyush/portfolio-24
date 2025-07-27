@@ -33,13 +33,12 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="max-h-[70vh] flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <div className="max-h-[70vh] flex items-center justify-center px-4 sm:px-6 lg:px-8 dark:text-gray-200">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="max-w-md w-full space-y-8  p-10 rounded-xl shadow-lg"
-      >
+        className="max-w-md w-full space-y-8  p-10 rounded-xl shadow-lg">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold ">Wanted</h2>
           <p className="mt-2 text-center text-sm ">
@@ -50,8 +49,7 @@ export default function ContactPage() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="text-center text-green-600"
-          >
+            className="text-center text-green-600">
             Thank you for your message! I'll get back to you soon.
           </motion.div>
         ) : (
@@ -100,8 +98,7 @@ export default function ContactPage() {
                   placeholder="Your Glorious Purpose"
                   rows={4}
                   value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                ></Textarea>
+                  onChange={(e) => setMessage(e.target.value)}></Textarea>
               </div>
             </div>
 
@@ -109,8 +106,7 @@ export default function ContactPage() {
               <Button
                 variant="ghost"
                 type="submit"
-                className="group relative w-full flex justify-center py-2 px-4 border-transparent text-sm font-medium rounded-md border border-gray-500"
-              >
+                className="group relative w-full flex justify-center py-2 px-4 border-transparent text-sm font-medium rounded-md border border-gray-500">
                 <span className="absolute left-0 inset-y-0 flex items-center pl-3">
                   <Send
                     className="h-5 w-5 text-indigo-500 group-hover:text-indigo-400"
