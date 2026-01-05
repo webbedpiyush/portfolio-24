@@ -47,13 +47,13 @@ export default function Home() {
           </p>
 
           <p className="text-base sm:text-lg leading-relaxed text-slate-700 dark:text-slate-300 font-light">
-            Currently working at{" "}
+            Ex - Engineer at{" "}
             <a
-              href="https://swades.ai"
+              href="https://attack.capital/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium text-slate-900 dark:text-slate-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 underline decoration-dotted underline-offset-4">
-              swades.ai
+              Attack Capital
             </a>{" "}
             ↗.
           </p>
