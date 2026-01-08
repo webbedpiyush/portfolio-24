@@ -125,7 +125,7 @@ export const socialLinks: SocialLink[] = [
   {
     name: "Resume",
     icon: RiFileTextLine,
-    href: "https://drive.google.com/file/d/1-ETW0bBetqjNRKJQNDAZBPW6La7JjtlG/view?usp=drive_link",
+    href: "https://drive.google.com/file/d/1otdPunvuzr8BqmyrnZ_-FB2B40EmrwRV/view?usp=sharing",
   },
   {
     name: "Repository",
